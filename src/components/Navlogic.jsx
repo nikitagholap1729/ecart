@@ -10,7 +10,9 @@ const Navlogic = () => {
             <div className='flex w-full gap-10 justify-center p-2 items-center h-12'>
                 {
                     NavData.map((item) =>
-                        <Nav title={item.title} />
+                        <Nav title={item.title} url={item.url} />
+            
+
                     )
                 }
 

@@ -1,6 +1,6 @@
 import React from "react";
 import Navlogic from "./components/Navlogic";
-import Landing from "./components/Landing";
+import Landingindex from"./components/Landing/Landingindex";
 
 
 function App() {
